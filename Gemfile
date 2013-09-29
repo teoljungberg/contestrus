@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 gem 'rails', '4.0.0'
 gem 'thin'
 gem 'foreman'
-gem 'activeadmin', git: "https://github.com/gregbell/active_admin.git", branch: "rails4"
+gem 'activeadmin', git: "https://github.com/gregbell/active_admin.git"
 gem 'sqlite3'
 gem 'sass-rails', '~> 4.0.0'
 gem 'resque'
@@ -18,5 +18,5 @@ gem 'capybara'
 gem 'poltergeist'
 gem 'pry'
 gem 'therubyracer'
-gem 'localjob', "0.1.1"
+gem 'localjob', git: "https://github.com/Sirupsen/localjob.git"
 gem "draper"
